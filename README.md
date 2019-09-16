@@ -1,6 +1,6 @@
 # pwm
 
-> My perfect Nuxt.js project
+> Password manager
 
 ## Build Setup
 
