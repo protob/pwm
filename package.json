@@ -13,7 +13,7 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.{js,vue}": "yarn lint"
+    "*.{js,vue}": "yarn lint --fix"
   },
   "husky": {
     "hooks": {
@@ -21,28 +21,39 @@
     }
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "@nano-sql/core": "^2.3.7",
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@prt-ui-vue": "git+https://protob@bitbucket.org/prt-dvl/prt-ui-vue.git",
+    "agen": "^1.0.7",
     "cross-env": "^5.2.0",
     "express": "^4.16.4",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/dotenv": "^1.4.0"
+    "fs": "^0.0.1-security",
+    "net": "^1.0.2",
+    "nuxt": "^2.12.0",
+    "uuid": "^7.0.3"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
-    "@nuxtjs/tailwindcss": "^1.0.0",
+    "@babel/runtime-corejs2": "^7.8.3",
+    "core-js": "^2.0.0",
     "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
-    "eslint-plugin-nuxt": ">=0.4.2",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-prettier": "^3.1.2",
-    "prettier": "^1.19.1",
-    "husky": "^4.0.0",
-    "lint-staged": "^10.0.0",
+    "@nuxtjs/tailwindcss": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^24.1.0",
+    "cryptr": "^6.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "husky": "^4.0.0",
     "jest": "^24.1.0",
+    "lint-staged": "^10.0.0",
+    "nodemon": "^1.18.9",
+    "nuxt-purgecss": "^0.2.1",
+    "nuxt-webfontloader": "^1.1.0",
+    "prettier": "^1.19.1",
     "vue-jest": "^4.0.0-0"
   }
 }
