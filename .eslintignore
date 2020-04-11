@@ -1,10 +1,7 @@
-util_scripts/**
-util_packages/**
 
 
 *.spec.js
 *.stories.js
-
 
 
 components/icons/**/*

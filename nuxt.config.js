@@ -32,7 +32,12 @@ module.exports = {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    {
+      src: '~/plugins/prt-components',
+      ssr: false
+    }
+  ],
   /*
    ** Nuxt.js dev-modules
    */

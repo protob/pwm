@@ -6,7 +6,7 @@
         pwm
       </h1>
       <h2 class="subtitle">
-        password manager
+        My dazzling Nuxt.js project
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
@@ -19,13 +19,16 @@
         >
           GitHub
         </a>
+        <PrtButton>Siema</PrtButton>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+
 import Logo from '~/components/Logo.vue'
+
 
 export default {
   components: {
