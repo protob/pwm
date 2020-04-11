@@ -6,7 +6,7 @@
         pwm
       </h1>
       <h2 class="subtitle">
-        My perfect Nuxt.js project
+        password manager
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">

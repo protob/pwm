@@ -1,10 +1,10 @@
 # pwm
 
-> Password manager
+> password manager
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
